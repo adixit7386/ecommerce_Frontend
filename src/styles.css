@@ -1,0 +1,19 @@
+body{
+    margin:0px;
+    font-family: 'Urbanist', sans-serif !important;
+}
+*{
+    font-family: 'Urbanist', sans-serif !important;
+}
+.NavbarInput:focus{
+    font-size: 18px;
+    flex: 1;
+        border-bottom: solid teal;
+        height: 35px;
+        outline:none;
+    @media screen and (max-width:480px){
+        height:15px;
+        font-size:15px;
+    }
+    
+}
